@@ -1,0 +1,89 @@
+<div class="main-wrapper">
+<header class="header-style3">
+
+    <div class="container">
+    <div class="top-bar">
+    </div>
+    </div>
+
+    <div class="navbar-default">
+
+        <div class="container px-lg-1-6 px-xl-2-5 px-xxl-2-9">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-12">
+                    <div class="menu_area alt-font">
+                        <nav class="navbar navbar-expand-lg navbar-light p-0 stroke">
+                            <div class="navbar-header navbar-header-custom">
+                                <!-- start logo -->
+                                <a href="#" class="navbar-brand logodefault"><img id="logo" src="../../../../assets/images/logo.png" alt="logo" /></a>
+                                <!-- end logo -->
+                            </div>
+
+                            <div class="navbar-toggler" (click)="showSideBar()"></div>
+
+                            <!-- start menu area -->
+                           
+                            <ul class="navbar-nav ms-auto lgscreen" id="nav">
+                                <li class="has-sub">
+                                    <a href="#!" [ngClass]="{'active' : routeLink == '' || 'about-us' || 'contact-us'}">Company Profile</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="about-us">About Us</a></li>
+                                        <li><a href="contact-us">Contact Us</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Tracking</a>
+                                </li>
+                                <li><a href="announcement-lists" [ngClass]="{'active' : routeLink == '/announcement-lists'}">Announcement</a>
+                                </li>
+                                <li class="has-sub"><a href="#!" >Enquiry Form</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="enquiry-quotation-form">Quotation Enquiry Form</a></li>
+                                        <li><a href="#">Delivery Pickup Enquiry Form</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <ul class="navbar-nav mdscreen" id="nav" *ngIf="sidebar">
+                                <li class="has-sub">
+                                    <a href="#!" [ngClass]="{'active' : routeLink == '' || 'about-us' || 'contact-us'}">Company Profile</a>
+                                    <!-- <ul class="sub-menu">
+                                        <li><a href="about-us">About Us</a></li>
+                                        <li><a href="contact-us">Contact Us</a></li>
+                                    </ul> -->
+                                </li>
+                                <li>
+                                    <a href="about-us">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="contact-us">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tracking</a>
+                                </li>
+                                <li><a href="announcement-lists" [ngClass]="{'active' : routeLink == '/announcement-lists'}">Announcements</a>
+                                </li>
+                                <li>
+                                    <a href="enquiry-quotation-form">Quotation Enquiry Form</a>
+                                </li>
+                                <li>
+                                    <a href="#">Delivery Pickup Enquiry Form</a>
+                                </li>
+                                <!-- <li class="has-sub"><a href="#!" >Enquiry Form</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="enquiry-quotation-form">Quotation Enquiry Form</a></li>
+                                        <li><a href="#">Delivery Pickup Enquiry Form</a></li>
+                                    </ul>
+                                </li> -->
+                            </ul>
+                          
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+</div>

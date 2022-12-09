@@ -1,0 +1,113 @@
+.slc-page-title {
+    text-align: center;
+    height: 200px;
+}
+
+.slc-post-date {
+    left: 0;
+    right: unset;
+    top: -1px;
+}
+
+.slc-post-post-wrapper {
+    border: 1px solid #e6f1f1;
+    padding: 20px 20px 0 20px;
+    margin-bottom: 30px;
+}
+
+.slc-page-title-layer {
+    margin-top: 0;
+}
+
+section.block {
+    margin-top: 45px;
+}
+
+span {
+    color: #fff;
+}
+
+.slc-post-date .slc-post-day {
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.card{
+    margin-bottom:25px;
+}
+
+.media-body {
+    h4{
+        font-family: 'Barlow condensed';
+        font-size: 26px;
+    }
+
+    span {
+        color: #000;
+    }
+}
+
+.butn-style1.fill {
+    padding: 9px 40px !important;
+    border-radius: 0;
+    margin-top: 7px;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+.quform-element>label {
+    font-family: "Barlow Condensed";
+    font-size: 19px;
+    color: #002a5c;
+    font-weight: 500;
+}
+
+.map{
+    border-radius: 10px;
+}
+
+.icon-box .box-circle.primary {
+    background: #c5111a21;
+}
+
+.contact-form{
+    padding: 30px;
+}
+
+.card-body{
+    padding-bottom:0;
+    background-image: url(../../../assets/images/world.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.contact-txt{
+    display:flex;
+    i{
+        padding-right: 12px;
+    padding-top: 3px;
+    color: var(--primary-color);
+    }
+}
+
+section.block{
+    background-image: url(https://moovit.foxthemes.me/wp-content/uploads/2019/08/Untitled-20.png) !important;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.cc{
+    margin-top:57px;
+}
+
+@media (max-width:768px) {
+    .media-body{
+        margin-bottom: 15px;
+    }
+    .cc{
+        margin-top:0;
+    }
+}

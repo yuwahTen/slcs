@@ -1,0 +1,122 @@
+.top-bar{
+    height:3px;
+    background-color: #c3121a;
+}
+
+.navbar-header-custom{
+    padding: 0;
+}
+
+.navbar-brand img{
+    max-height: 80px;
+}
+
+.navbar-nav > li > a{
+    padding: 21px 1.1rem;
+}
+
+.navbar-nav > li > a.active{
+    color: var(--primary-color);
+}
+
+.navbar > ul > li.has-sub > a.active:after{
+    border-color: transparent var(--primary-color) var(--primary-color) transparent;
+}
+
+// .navbar-nav > li > a.active:after{
+//     content: "";
+//     top: auto;
+//     bottom: -2px;
+//     height: 2px; 
+//     transition: all .2s ease;
+//     background-color: var(--primary-color);
+// }
+
+// nav ul li a,
+// nav ul li a:after,
+// nav ul li a:before {
+//   transition: all .5s;
+// }
+
+// nav.stroke ul li a,
+// nav.fill ul li a {
+//   position: relative;
+// }
+// nav.stroke ul li a:after,
+// nav.fill ul li a:after {
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   margin: auto;
+//   width: 0%;
+//   content: '.';
+//   color: transparent;
+//   background: #aaa;
+//   height: 1px;
+// }
+// nav.stroke ul li a:hover:after {
+//   width: 100%;
+// }
+
+.navbar-nav > li.has-sub > ul {
+    transition: all .5s ease;
+    box-shadow: 0px 10px 50px rgb(0 0 0 / 30%);
+    border: 1px solid #ddd;
+}
+
+.navbar-nav > li.has-sub > ul:after{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 30px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -8px;
+    background-color: red;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.navbar-nav > li > a {
+    padding: 21px 5px 21px 27px;
+}
+
+.navbar ul ul.sub-menu li{
+    border-top: 1px solid #ddd;
+    padding: 15px 0 0 15px;
+}
+
+.navbar-nav > li.has-sub > ul{
+    padding-top:0;
+}
+
+.navbar-toggler:after{
+    border-top: 2px solid #c5111a;
+    border-bottom: 2px solid #c5111a;
+}
+
+.navbar-toggler:before{
+    background: #c5111a;
+}
+
+@media (max-width:991px) {
+    .lgscreen{
+        display:none;
+    }
+}
+@media (min-width:991px) {
+    .mdscreen{
+        display:none;
+    }
+}
+
+@media (max-width:768px) {
+    .about-title{
+        margin-top:35px;
+    }
+    .navbar-nav > li > a {
+        padding: 12px 5px 12px 27px;
+    }
+}

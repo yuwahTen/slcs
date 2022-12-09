@@ -1,0 +1,169 @@
+.slider {
+    margin-bottom: 0;
+    background-color: #f8f5f1f0;
+}
+
+section.block {
+    padding-bottom: 50px;
+    padding-top: 60px!important;
+    background-color: #f8f5f1f0;
+}
+
+.service-block {
+    background-image: url(../../../assets/images/service-bg.png);
+    padding-top: 50px;
+}
+
+.box {
+    width: 25px;
+    margin-right: 16px;
+}
+
+.section-bg {
+    height: 309px;
+    top: unset;
+}
+
+.why-us-container {
+    background: var(--primary-color);
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    background-image: url('../../../assets/images/bg-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slc-post-post-thumbnail-wrapper {
+    position: relative;
+
+    img {
+        height: auto;
+        max-width: 100%;
+    }
+
+}
+
+.slc-post-date {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    padding: 8px 12px 12px;
+    background-color: var(--primary-color);
+
+    .slc-post-day {
+        font-size: 38px;
+        line-height: 44px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        display: block;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .slc-post-month {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        color: #fff;
+    }
+}
+
+.slc-post-post-wrapper {
+    position: relative;
+}
+
+.slc-post-title {
+    padding: 25px 15px 30px 0;
+    .post-title{
+        a{
+            font-size:26px;
+            color: #000;
+            font-family:'Barlow Condensed'
+        }
+    }
+}
+
+.post-read-more-link {
+    border-top: 1px solid #f8f8f8;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+    a{
+        color: #000;
+        padding-right: 25px;
+    }
+    a:hover{
+        color: var(--primary-color)
+    }
+}
+
+.post-read-more-link.post-link{
+    border-top:unset;
+    font-weight: normal;
+    text-align:right;
+    text-transform: unset;
+}
+
+.card-style2{
+    margin-bottom:22px;
+    .card-body{
+        color: #000;
+
+    }
+}
+
+.serviceImg{
+    width: 40px;
+    margin-bottom:10px;
+}
+
+h3.service{
+    font-family:'Barlow Condensed';
+    font-size: 22px;
+}
+
+.card-style2.h-100{
+    height: 121px!important;
+}
+
+.card-style2 .card-body {
+    color: #000;
+    padding: 20px;
+}
+
+.serviceImg {
+    width: 40px;
+    margin-bottom: 10px;
+    z-index: 2;
+    position: relative;
+}
+
+h3.service {
+    font-family: Barlow Condensed;
+    font-size: 21px;
+}
+
+.home-img {
+    margin-top: -25px;
+}
+
+.about-title {
+    margin-top:unset;
+    p{
+    text-align:justify;
+}
+}
+
+@media (max-width:768px) {
+    .about-title{
+        margin-top:35px;
+    }
+}
+

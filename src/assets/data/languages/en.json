@@ -1,0 +1,20 @@
+{
+    "navbar": {
+        "propertiesSaleLabel": "For Sale",
+        "propertiesRentLabel": "For Rent",
+        "latestproperties": "Latest Properties",
+        "regionLabel": "Region"
+    },
+    "footer": {
+        "home": "Home",
+        "findproperty": "Find Properties",
+        "findagent": "Find Agents",
+        "latestnew": "Latest News & Events",
+        "faq": "FAQ",
+        "aboutus": "About Us",
+        "contactus": "Contact Us",
+        "pages": "Pages",
+        "resource": "Resources",
+        "contactinformation": "Contact Information"
+    }
+}

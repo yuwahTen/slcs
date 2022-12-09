@@ -1,0 +1,96 @@
+.slc-page-title {
+    text-align:center;
+    height: 200px;
+}
+
+.slc-post-date{
+    left:0;
+    right:unset;
+    top:-1px;
+}
+
+.slc-post-post-wrapper{
+    border: 1px solid #e6f1f1;
+    padding: 20px 20px 0 20px;
+    margin-bottom:30px;
+}
+
+.slc-page-title-layer {
+    margin-top: 0;
+}
+
+section.aboutus{
+    margin-top:50px;
+}
+
+p{
+    text-align: justify;
+}
+
+.why-us-container {
+    background: var(--primary-color);
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    //background-image: url('../../../assets/images/slider.jpg');
+    background: linear-gradient(#f4433670, rgb(33 150 243 / 48%)),
+    url("../../../assets/images/slider.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+
+.why-us-container::before{
+    background: #002a5c;
+}
+
+.card-style1 .card-body .hover-bg:before{
+    background: unset;
+    position: unset;
+    content: none;
+    background: unset;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 3px;
+}
+
+.card-style1 .card-body{
+    border-radius: unset;
+    border-left: 7px solid var(--primary-color);
+    h3{
+        a{
+            font-family: Barlow Condensed;
+            color: var(--primary-color);
+            font-size:30px
+        }
+    }
+}
+
+.theme-overlay-blue-dark[data-overlay-dark]:before {
+    background: #002a5c;
+}
+
+.card{
+    background-color: #ffffffeb;
+}
+.testimonials-four .media{
+    max-width: unset;
+    display:flex;
+    h3{
+        font-size:1.4rem;
+        font-family:'Barlow Condensed';
+    }
+    i{
+        color: var(--primary-color) !important;
+    }
+}
+@media (max-width:768px) {
+   p{
+    text-align: left;
+   }
+   .card-style1{
+    margin-bottom:20px;
+   }
+}
